@@ -1,0 +1,247 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+.row>div {
+    /*border: solid 1px green;
+    display: flex;*/
+}
+
+.row>div {
+    margin-bottom: 30px;
+}
+
+body, html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+article {
+    background-color: #0E3133;
+    height: 100%; 
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.back {
+    background-color: #3B787A;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: 700;
+}
+
+h1, h2, h3,p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.kleiner {
+    font-size: 0.8rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #F4E7C5;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 2.6rem;
+    line-height: 3.0;
+    color:#FECB00;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 2.0;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.0;
+}
+
+.titelrij {
+    margin: 60px 0;
+}
+
+
+.col {
+    position: relative;
+}
+
+/* FOOTER */
+
+.spacer {
+    height: 10px;
+}
+
+.img_right_ahs{
+    float: right;
+    width: auto;
+    height: 50px;
+}
+
+/* NAVIGATIE */
+
+.bg-film {
+    background-color: #3B787A;
+    height: 100px;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+
+/* TEXTBOX */
+.img_left{
+    float: left;
+    width: 100%;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.img_right{
+    float: right;
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.img_blokken {
+    width: 100%;
+    height: auto;
+
+}
+
+.leesmeer {
+    background-color:#FECB00;
+    margin-bottom: 60px;
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.leesmeer:hover {
+    background-color:white;
+    color: #FECB00;
+}
+
+.margin_button {
+    margin-left: 30px;
+}
+
+
+.article-body {
+    background-color: #3B787A;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.background {
+    background-color: #3B787A;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.darkgreen {
+    background-color: #0E3133;
+}
+
+.background2 {
+    background-color: #FECB00;
+    height: 100px;
+    padding-top: 40px;
+}
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    .bottom-right {
+        position: absolute;
+        bottom: 100px;
+        right: 15px;
+        width: 300px;
+    }
+    
+    .bottom-left {
+        position: absolute;
+        bottom: 100px;
+        left: 15px;
+        width: 300px;
+    }
+
+    .img_left{
+        height:500px;
+        width: auto;
+    }
+
+    .img_right{
+        height:500px;
+        width: auto;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
