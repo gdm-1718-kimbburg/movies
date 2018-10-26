@@ -28,9 +28,6 @@ article {
     margin-bottom: 60px;
 }
 
-.back {
-    background-color: #3B787A;
-}
 
 h1, h2, h3 {
     font-family: 'Oswald', 'sans-serif';
@@ -91,6 +88,12 @@ h5 {
     position: relative;
 }
 
+.flex-container {
+    display: flex;
+    height: 200px;
+    padding-top:100px;
+  }
+
 /* FOOTER */
 
 .spacer {
@@ -103,25 +106,16 @@ h5 {
     height: 50px;
 }
 
-/* NAVIGATIE */
+/* HEADER */
 
 .bg-film {
     background-color: #3B787A;
-    height: 100px;
-}
-
-.navbar-light .navbar-brand {
-    font-weight: 700;
-    color: white;
-    font-size: 2rem;
-}
-
-.logo {
-    margin-right: 60px;
+    height: 150px;
 }
 
 
-/* TEXTBOX */
+/* IMAGES */
+
 .img_left{
     float: left;
     width: 100%;
@@ -144,6 +138,14 @@ h5 {
 
 }
 
+/* BUTTON */
+
+a {
+    text-align: center;
+    padding: 9px 10px;
+    text-align: center;
+}
+
 .leesmeer {
     background-color:#FECB00;
     margin-bottom: 60px;
@@ -155,17 +157,20 @@ h5 {
     font-weight: 700;
     color: white;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .leesmeer:hover {
     background-color:white;
     color: #FECB00;
+    text-decoration: none;
 }
 
 .margin_button {
     margin-left: 30px;
 }
 
+/* ARTICLE */
 
 .article-body {
     background-color: #3B787A;
@@ -190,7 +195,9 @@ h5 {
     padding-top: 40px;
 }
 
-
+.back {
+    background-color: #3B787A;
+}
 
 /* MEDIA QUERIES
 *********************************************/
